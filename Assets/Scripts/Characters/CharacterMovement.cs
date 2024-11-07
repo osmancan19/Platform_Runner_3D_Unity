@@ -20,7 +20,7 @@ public class CharacterMovement : MonoBehaviour, ICharacter
         isFell = false;
         canMove = false;
         fallThreshold = -1.45f;
-        speed = 110f;
+        speed = 9f;
         rotationSpeed = 720f;
     }
 

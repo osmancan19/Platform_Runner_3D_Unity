@@ -9,7 +9,7 @@ public class PlayerMovement : CharacterMovement
         characterType = CharacterType.Player; 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (isFell || !canMove) return;  // Düşme animasyonu aktifse hareket etmeye izin verme
 

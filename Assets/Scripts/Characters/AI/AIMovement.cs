@@ -14,7 +14,7 @@ public class AIMovement : CharacterMovement
         currentWaypointIndex = 0;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (!canMove) return; // Eğer hareket devre dışıysa hiçbir işlem yapma
         if (!isFell && !isWaiting) // AI düşmediyse ve duraklamıyorsa
